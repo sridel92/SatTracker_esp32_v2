@@ -5,6 +5,11 @@ on code :
 
 adding #include <WiFiManager.h> // https://github.com/tzapu/WiFiManager
 
+change the location of your screen setup
+
+#include <../TFT_eSPI_Setups/User_Setup_st7789.h>    // this is usefull for opening a custom library setup
+
+
 tracking many satellite on screen
 
 zomming function when ISS is above Europe. you must add one BMP map
