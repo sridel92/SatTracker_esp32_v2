@@ -60,5 +60,6 @@ on setting.h
 
 
 If you uncomment ligne 13 : #define TIMELOOP   // uncomment for having a lopp from the same epochtime continuously for debuging
-you have a time lapse of the same day
+
+you have a loop of the same day
 
