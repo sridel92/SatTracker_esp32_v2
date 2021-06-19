@@ -1,5 +1,5 @@
 # SatTracker_esp32_v2
-an improved version
+an improved version     ( Version Zoom5 )
 
 on code :
 
@@ -27,8 +27,8 @@ my example :
 
 
 Switch boot
-GPIO12 - switch for rotation screen at startup (connect it to the ground about 5 seconds during boot)
-GPIO13 - switch for LOOP testing at startup  (connect it to the ground about 5 seconds during boot)
+-GPIO12 - switch for rotation screen at startup (connect it to the ground about 5 seconds during boot)
+-GPIO13 - switch for LOOP testing at startup  (connect it to the ground about 5 seconds during boot)
 
 
 
@@ -51,8 +51,8 @@ zomming function when ISS is above Europe. you must add one BMP map
 
 
 on setting.h 
-DEBUG mode
-LOOP mode
+-DEBUG mode
+-LOOP mode
 
 
 If you uncomment ligne 13 : #define TIMELOOP   // uncomment for having a lopp from the same epochtime continuously for debuging
