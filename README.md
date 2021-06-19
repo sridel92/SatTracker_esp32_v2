@@ -1,7 +1,7 @@
 # SatTracker_esp32_v2
 an improved version     ( Version Zoom5 )
 
-on code :
+On code :
 
 adding #include <WiFiManager.h> // https://github.com/tzapu/WiFiManager
 
@@ -27,12 +27,16 @@ my example :
 
 
 Switch boot
+
 -GPIO12 - switch for rotation screen at startup (connect it to the ground about 5 seconds during boot)
+
 -GPIO13 - switch for LOOP testing at startup  (connect it to the ground about 5 seconds during boot)
 
 
 
-tracking many satellite on screen. search for the TLE sat code on the web (celestrak)
+
+
+Tracking many satellite on screen. search for the TLE sat code on the web (celestrak)
 
 int Sat = 4;        //  Enter the number of tracked satellite
 // Enter the code of the tracked satellites from Celestrak
